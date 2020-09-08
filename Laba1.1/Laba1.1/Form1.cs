@@ -22,8 +22,8 @@ namespace Laba1._1
         
         private void Form1_Load(object sender, EventArgs e)
         {
-           
-            
+
+            suppliersBindingSource.DataSource = db.Suppliers.ToList();
            productsBindingSource1.DataSource = db.Products.ToList();
             
 
@@ -45,6 +45,26 @@ namespace Laba1._1
             else
                 return 1;
         
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            
+            productsBindingSource1.DataSource = null;
+            productsBindingSource1.DataSource = db.Products.ToList<Products>();
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (comboBox1.SelectedValue == null) return;
+            
+            int n = (int)comboBox1.SelectedValue;
+            
+            var postav = db.Products.Where(x => x.SupplierID == n);
+            
+            productsBindingSource1.DataSource = postav.ToList();
+
         }
     }
 }

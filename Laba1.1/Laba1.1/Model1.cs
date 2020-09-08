@@ -8,11 +8,12 @@ namespace Laba1._1
     public partial class Model1 : DbContext
     {
         public Model1()
-            : base("name=Model11")
+            : base("name=Model")
         {
         }
 
         public virtual DbSet<Products> Products { get; set; }
+        public virtual DbSet<Suppliers> Suppliers { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
