@@ -94,7 +94,10 @@ display: table-cell;
 	z-index: 0;
 	height: 300px;
 }
-
+footer{
+	background: #c3aa5b;
+	color: white;
+}
 
 
 
