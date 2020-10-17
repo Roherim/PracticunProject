@@ -1,0 +1,100 @@
+/*
+Theme Name: MyStandes;
+Theme URL: 111;
+Description: Тема для диплома;
+Autor: Медведев Данила;
+Version: 1.0.0;
+*/
+#Logoname{
+	color:#c3aa5b;
+}
+header{
+	background-image: url(https://img5.goodfon.ru/wallpaper/nbig/b/a7/fon-uzor-drevesina-laminat.jpg);
+	color:  white;
+	display: table;
+}
+#Coul{
+	color:  white;
+}
+body{
+	margin-right: 20%; 
+    margin-left: 20%;
+}
+#Hed3{
+	box-sizing: border-box;
+    padding: 0px 110px 5px 5px;
+display: table-cell;
+}
+#Hed1{
+	box-sizing: border-box;
+    padding: 0px 80px 5px 5px;
+	display: table-cell;
+}
+#Hed2{
+	box-sizing: border-box;
+    padding: 0px 70px 5px 15px;
+	display: table-cell;
+}
+nav{
+	background:#c3aa5b;
+	padding: 10px 0px 10px 0px;
+}
+#Contentpage{
+	display: table;
+}
+#MenuRight{
+	display: table-cell;
+}
+#News{
+display: table-cell;
+	box-sizing: border-box;
+    padding: 0px 40px 5px 40px;
+
+}
+#MenuRight button{
+    display: block;
+    font-size: 12px;
+    width:150px;
+}
+#Tab1{
+
+}
+.product-wrapper {
+	display: block;
+	width: 100%;
+	float: left;
+	transition: width .2s;
+}
+@media only screen and (min-width: 450px) {
+	.product-wrapper {
+		width: 50%;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.product-wrapper {
+		width: 33.333%;
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+	.product-wrapper {
+		width: 25%;
+	}
+}
+.product {
+	display: block;
+	border: 1px solid #c3aa5b;
+	border-radius: 3px;
+	position: relative;
+	background: #fff;
+	margin: 0 20px 20px 0;
+	text-decoration: none;
+	color: #474747;
+	z-index: 0;
+	height: 300px;
+}
+
+
+
+
