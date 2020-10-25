@@ -12,32 +12,35 @@ header{ /*шапка */
 	background-image: url(https://img5.goodfon.ru/wallpaper/nbig/b/a7/fon-uzor-drevesina-laminat.jpg);
 	color:  #c0c0c0;
 	display: table;
+	width: 155%;
+	max-width: 1920px;
 }
 #Coul{/*надписи на шапке кроме лого */
 	color:  #c0c0c0;
 }
 body{/* отступы по краям*/
-	margin-right: 20%; 
-    margin-left: 20%;
+	
 }
 #Hed3{/*блоки шапки */
 	box-sizing: border-box;
-    padding: 0px 110px 5px 5px;
+    padding: 0% 2% 0.5% 2%;
 display: table-cell;
 }
 #Hed1{
 	box-sizing: border-box;
-    padding: 0px 80px 5px 5px;
+    padding: 0% 2% 0.5% 2%;
+    margin: 5% 0% 0% 30%;
 	display: table-cell;
 }
 #Hed2{
 	box-sizing: border-box;
-    padding: 0px 70px 5px 15px;
+    padding: 0% 2% 0.5% 2%;
 	display: table-cell;
 }
 nav{/* навигация*/
 	background:#c3aa5b;
 	padding: 10px 0px 10px 0px;
+	width: 155%;
 }
 #Contentpage{ /*часть с контентом */
 	display: table;
@@ -100,6 +103,7 @@ display: table-cell;
 footer{/*подвал */
 	background: #c3aa5b;
 	color: white;
+	width: 155%;
 }
 .products-image{
 	display: block;
@@ -149,5 +153,10 @@ products-imagesi {
 #centrepage{
 	display: table;
 }
-
+.wapper{
+	width: 80%;
+	max-width: 720px;
+	margin-right: 20%; 
+    margin-left: 20%;
+}
 	
