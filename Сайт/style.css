@@ -23,19 +23,21 @@ body{/* отступы по краям*/
 }
 #Hed3{/*блоки шапки */
 	box-sizing: border-box;
-    padding: 0% 2% 0.5% 2%;
+    padding: -10% 2% 0.5% 20%;
+    margin: 0% 10% 0% 20%;
 display: table-cell;
 }
 #Hed1{
 	box-sizing: border-box;
-    padding: 0% 2% 0.5% 2%;
-    margin: 5% 0% 0% 30%;
+    padding: 0% 0% 0.0% 0%;
+    margin: 0% 10% 0% 20%;
 	display: table-cell;
 }
 #Hed2{
 	box-sizing: border-box;
-    padding: 0% 2% 0.5% 2%;
+    padding: 0% 5% 0.5% 2%;
 	display: table-cell;
+	margin: 0% 0% 0% 0%;
 }
 nav{/* навигация*/
 	background:#c3aa5b;
