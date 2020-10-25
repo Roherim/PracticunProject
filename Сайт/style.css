@@ -8,19 +8,19 @@ Version: 1.0.0;
 #Logoname{
 	color:#c3aa5b;
 }
-header{
+header{ /*шапка */
 	background-image: url(https://img5.goodfon.ru/wallpaper/nbig/b/a7/fon-uzor-drevesina-laminat.jpg);
-	color:  white;
+	color:  #c0c0c0;
 	display: table;
 }
-#Coul{
-	color:  white;
+#Coul{/*надписи на шапке кроме лого */
+	color:  #c0c0c0;
 }
-body{
+body{/* отступы по краям*/
 	margin-right: 20%; 
     margin-left: 20%;
 }
-#Hed3{
+#Hed3{/*блоки шапки */
 	box-sizing: border-box;
     padding: 0px 110px 5px 5px;
 display: table-cell;
@@ -35,23 +35,23 @@ display: table-cell;
     padding: 0px 70px 5px 15px;
 	display: table-cell;
 }
-nav{
+nav{/* навигация*/
 	background:#c3aa5b;
 	padding: 10px 0px 10px 0px;
 }
-#Contentpage{
+#Contentpage{ /*часть с контентом */
 	display: table;
 }
-#MenuRight{
+#MenuRight{/*боковое меню */
 	display: table-cell;
 }
-#News{
+#News{/*блок с новостями */
 display: table-cell;
 	box-sizing: border-box;
     padding: 0px 40px 5px 40px;
 
 }
-#MenuRight button{
+#MenuRight button{/* кнопки правого меню*/
     display: block;
     font-size: 12px;
     width:150px;
@@ -59,7 +59,7 @@ display: table-cell;
 #Tab1{
 
 }
-.product-wrapper {
+.product-wrapper {/*блокок с продуктом */
 	display: block;
 	width: 100%;
 	float: left;
@@ -82,7 +82,7 @@ display: table-cell;
 		width: 25%;
 	}
 }
-.product {
+.product {/*описание продукта */
 	display: block;
 	border: 1px solid #c3aa5b;
 	border-radius: 3px;
@@ -93,8 +93,60 @@ display: table-cell;
 	color: #474747;
 	z-index: 0;
 	height: 300px;
+	width: ;
+	border-image: unset;
+}
+footer{/*подвал */
+	background: #c3aa5b;
+	color: white;
+}
+.products-image{
+	display: block;
+	width: 100%;
+	float: left;
+	transition: width .2s;
+}
+products-imagesi {
+	display: block;
+	width: 100%;
+	float: left;
+	transition: width .2s;
+}
+.product-img {
+	display: block;
+	border: 1px solid #c3aa5b;
+	border-radius: 3px;
+	position: relative;
+	background: #fff;
+	margin: 0 20px 20px 0;
+	text-decoration: none;
+	color: #474747;
+	z-index: 0;
+	height: 300px;
+	width: 300px;
+}
+	#Tab2{
+		display: table-cell;
+	}
+	#Tab3{
+	 display: table-cell;
+	}
+	#INF{
+		margin-left: 20px;
+		display: table-cell;
+	}
+	.Silv{
+		background: #c0c0c0;
+	}
+	#protab{
+	display: table-cell;
+	}
+
+#protab{
+
+}
+#centrepage{
+	display: table;
 }
 
-
-
-
+	
