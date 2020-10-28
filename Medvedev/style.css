@@ -1,0 +1,147 @@
+/*
+Theme Name: MyStandes;
+Theme URL: 111;
+Description: Тема для диплома;
+Autor: Медведев Данила;
+Version: 1.0.0;
+*/
+a {
+	text-decoration: none;
+	color: black;
+}	
+#Logoname{
+	color:#c3aa5b;
+}
+header{ /*шапка */
+	background-image: url(https://img5.goodfon.ru/wallpaper/nbig/b/a7/fon-uzor-drevesina-laminat.jpg);
+	color:  #c0c0c0;
+	display: table;
+	width: 155%;
+	max-width: 1920px;
+}
+#Coul{/*надписи на шапке кроме лого */
+	color:  #c0c0c0;
+}
+body{/* отступы по краям*/
+	
+}
+#Hed3{/*блоки шапки */
+	box-sizing: border-box;
+    padding: -10% 2% 0.5% 20%;
+    margin: 0% 10% 0% 20%;
+display: table-cell;
+}
+#Hed1{
+	box-sizing: border-box;
+    padding: 0% 0% 0.0% 0%;
+    margin: 0% 10% 0% 20%;
+	display: table-cell;
+}
+#Hed2{
+	box-sizing: border-box;
+    padding: 0% 5% 0.5% 2%;
+	display: table-cell;
+	margin: 0% 0% 0% 0%;
+}
+nav{/* навигация*/
+	background:#c3aa5b;
+	padding: 10px 0px 10px 0px;
+	width: 155%;
+}
+#Contentpage{ /*часть с контентом */
+	display: table;
+	width: 150%;
+}
+#MenuRight{/*боковое меню */
+	display: table-cell;
+}
+#News{/*блок с новостями */
+display: table-cell;
+	box-sizing: border-box;
+    padding: 0px 40px 5px 40px;
+    width: 800px;
+
+}
+#MenuRight button{/* кнопки правого меню*/
+    display: block;
+    font-size: 12px;
+    width:150px;
+}
+#Tab1{
+
+}
+.product-wrapper {/*блокок с продуктом */
+	display: block;
+	width: 100%;
+	float: left;
+	transition: width .2s;
+}
+@media only screen and (min-width: 450px) {
+	.product-wrapper {
+		width: 50%;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.product-wrapper {
+		width: 33.333%;
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+	.product-wrapper {
+		width: 25%;
+	}
+}
+
+	
+.product {/*описание продукта */
+	display: block;
+	border: 1px solid #c3aa5b;
+	border-radius: 3px;
+	position: relative;
+	background: #fff;
+	margin: 0 20px 20px 0;
+	text-decoration: none;
+	color: #474747;
+	z-index: 0;
+	height: 240px;
+	width:180px ;
+	border-image: unset;
+}
+footer{/*подвал */
+	background: #c3aa5b;
+	color: white;
+	width: 155%;
+}
+	#Tab2{
+		display: table-cell;
+	}
+	#Tab3{
+	 display: table-cell;
+	}
+	#INF{
+		margin-left: 10%;
+		padding: 5%;
+		display: table-cell;
+	}
+	.Silv{
+		background: #c0c0c0;
+	}
+	#protab{
+	display: table-cell;
+	}
+
+#protab{
+
+}
+#centrepage{
+	display: table;
+}
+.wapper{
+	width: 100%;
+	max-width: 720px;
+	margin-right: 20%; 
+    margin-left: 20%;
+}
+
